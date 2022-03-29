@@ -1,2 +1,2 @@
 # No light
- ~nolight~
+ ~light~
