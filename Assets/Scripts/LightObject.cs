@@ -10,12 +10,12 @@ public class LightObject : MonoBehaviour
     	if (other.tag == "LightObject")
     	{
     		other.GetComponent<Collider>().isTrigger = false;
-    		Debug.Log("coll on");
+    		//Debug.Log("coll on");
     	}
     	if (other.tag == "ShadowObject")
     	{
     		other.GetComponent<Collider>().isTrigger = true;
-    		Debug.Log("coll off");
+    	//	Debug.Log("coll off");
     	}
 
     }
@@ -25,12 +25,12 @@ public class LightObject : MonoBehaviour
     	if (other.tag == "LightObject")
     	{
     		other.GetComponent<Collider>().isTrigger = true;
-    		Debug.Log("coll off");
+    	//	Debug.Log("coll off");
     	}
     	if (other.tag == "ShadowObject")
     	{
     		other.GetComponent<Collider>().isTrigger = false;
-    		Debug.Log("coll on");
+    	//	Debug.Log("coll on");
     	}
     }
 }
