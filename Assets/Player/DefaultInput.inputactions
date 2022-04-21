@@ -26,39 +26,6 @@
             ],
             "bindings": [
                 {
-                    "name": "Forward",
-                    "id": "631d08f2-e1f6-4f48-8832-876c7180f560",
-                    "path": "1DAxis",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Movement",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "negative",
-                    "id": "33afbb59-a340-48d6-894a-84909720b1bd",
-                    "path": "<Keyboard>/w",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "positive",
-                    "id": "a883b225-4ce2-4da7-a345-44c7b9feb90c",
-                    "path": "<Keyboard>/s",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
                     "name": "Right",
                     "id": "96820886-2f25-4e4e-8451-7ed1ecb1039d",
                     "path": "1DAxis",
@@ -72,7 +39,7 @@
                 {
                     "name": "negative",
                     "id": "9163408e-66be-4a5a-b82e-62cbaa264466",
-                    "path": "<Keyboard>/d",
+                    "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -83,7 +50,7 @@
                 {
                     "name": "positive",
                     "id": "03ca16e1-a3f8-47dd-9b97-70eb857dd20d",
-                    "path": "<Keyboard>/a",
+                    "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
